@@ -37,12 +37,12 @@ class MainComponent extends Component{
                 indexQ:Math.floor(Math.random()*102),
                 indexC:Math.floor(Math.random()*this.state.colors.length)
                 })
-            },400);
+            },300);
         await setTimeout(()=>{
         this.setState({
             visible:!this.state.visible
         });
-        },400)
+        },300)
     }
     render(){
         // console.log(this.state.quotes);
