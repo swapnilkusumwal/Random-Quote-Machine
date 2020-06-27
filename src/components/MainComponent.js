@@ -84,7 +84,7 @@ class MainComponent extends Component{
 }
 export default MainComponent;
 const styles ={
-    position: 'absolute', left: '50%', top: '45%',
+    position: 'absolute', left: '50%', top: '50%',
     transform: 'translate(-50%, -50%)',
     fontWeight:400
 };
