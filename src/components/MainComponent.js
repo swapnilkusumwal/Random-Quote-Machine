@@ -66,10 +66,11 @@ class MainComponent extends Component{
                     <br/>
                     <div className="row" style={{color:this.state.colors[this.state.indexC]}}>
                         <div className="col-6">
-                            <Button style={{backgroundColor:this.state.colors[this.state.indexC]}}>
-                                <FontAwesomeIcon icon={faTwitter} />
-                                <a id="tweet-quote" href="https://twitter.com/intent/tweet"></a>
-                            </Button>
+                            <a id="tweet-quote" href="https://twitter.com/intent/tweet">
+                                <Button style={{backgroundColor:this.state.colors[this.state.indexC]}}>
+                                    <FontAwesomeIcon icon={faTwitter} />
+                                </Button>
+                            </a>
                         </div>
                         <div className="col-6" style={{display: 'flex', justifyContent: 'flex-end'}}>
                             <Button type="submit" id="new-quote" onClick={this.handleSubmit} 
